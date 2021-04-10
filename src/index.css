@@ -1,0 +1,23 @@
+@import 'tailwindcss/dist/base.css';
+@import 'tailwindcss/dist/components.css';
+@import 'tailwindcss/dist/utilities.css';
+
+
+div .target{
+    max-width: 300px;
+    border-radius: 0.5rem;
+    margin: 10px;
+}
+div .target:hover{
+    background-color: rgb(207, 207, 207);
+}
+.fontTitle{
+    color:#8c9d3d;
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    color: #8c9d3d;
+    cursor: pointer;
+}
