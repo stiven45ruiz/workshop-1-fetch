@@ -46,14 +46,14 @@ window.fetch(`${urlBase}/api/avo`)
         price.textContent = formatPrice(item.price);
         price.className = "text-lg text-gray-500";
 
-        const bounce = document.createElement("svg");
-        bounce.textContent = "👇🏽 Más";
-        bounce.className = "animate-bounce  box";
+        const bounce = document.createElement("button");
+        bounce.textContent = "👇🏽Más";
+        bounce.className = "animate-bounce box";
 
         const description = document.createElement("div");
         description.textContent = item.attributes.description;
         description.className = "";
-
+        
         const container = document.createElement("div");
         container.append(image, title, price, bounce);
         container.className = "target p-2";
